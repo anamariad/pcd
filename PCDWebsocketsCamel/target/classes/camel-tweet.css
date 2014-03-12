@@ -1,0 +1,2 @@
+div { border: 0px solid black; }
+div#chat { resize: both; clear: both; width: 80em; height: 60ex; overflow: auto; background-color: #f0f0f0; padding: 4px; border: 1px solid black; }

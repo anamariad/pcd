@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c0c4aef-fb8c-47c1-91d9-b17bcadbb833" name="Default" comment="" />
+    <ignored path="PCDMashup.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PCDMashup" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/MusicMashup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/chartlyrics/Apiv1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/MusicMashup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/quotes/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/translate/TranslateRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/musicovery/Track.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/musicovery/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/translate/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/translate/AccessToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/translate/WebUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/main/musicovery/MusicoveryResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/musicovery/TrackDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/music/Song.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/music/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/music/Track.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/music/TrackList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/music/MusicoveryResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/PCDMashup.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="961" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Annouk\Documents\IntelliJProjects\PCDMashup\src\main\java\main\translate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Annouk\Documents\IntelliJProjects\PCDMashup\src\main\java\main\quotes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PCDMashup">
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PCDMashup" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.PCDMashup" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PCDMashup" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.PCDMashup" />
+    </list>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1696" height="961" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5862485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39927623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69450104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3545108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="66" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.0" vertical-offset="712" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/TranslateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="45" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/MusicoveryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/TrackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="18" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="85" selection-start="3152" selection-end="3171" vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/TranslateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="45" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/MusicoveryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/TrackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="18" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="6" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/v2/Translate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.3325031" vertical-offset="413" max-vertical-offset="3094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/microsoft_mt_web_service/TranslateOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="48" selection-start="3639" selection-end="3639" vertical-scroll-proportion="0.978481" vertical-offset="519" max-vertical-offset="3519" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/ExclusionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar!/com/google/gson/ExclusionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="17" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.5652174" vertical-offset="935" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="948" selection-end="948" vertical-scroll-proportion="0.6576402" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.81772155" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.3.0/jackson-databind-2.3.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="18" selection-start="20508" selection-end="20508" vertical-scroll-proportion="0.0" vertical-offset="4131" max-vertical-offset="7072" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.3.0/jackson-databind-2.3.0-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2085" column="17" selection-start="77627" selection-end="77627" vertical-scroll-proportion="-0.11111111" vertical-offset="34544" max-vertical-offset="51986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="18" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6198758" vertical-offset="912" max-vertical-offset="1717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/tempuri/SoapService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="598" selection-end="614" vertical-scroll-proportion="-0.85026735" vertical-offset="556" max-vertical-offset="1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/TranslateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="45" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.3031056" vertical-offset="1439" max-vertical-offset="2244" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/ClientAuthData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="31" selection-end="31" vertical-scroll-proportion="0.065764025" vertical-offset="0" max-vertical-offset="517" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/translate/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/TrackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="191" selection-end="191" vertical-scroll-proportion="0.21118012" vertical-offset="0" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.1689441" vertical-offset="0" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="296" selection-end="296" vertical-scroll-proportion="0.19751553" vertical-offset="62" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08447205" vertical-offset="0" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/music/MusicoveryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="86" selection-end="86" vertical-scroll-proportion="0.08447205" vertical-offset="0" max-vertical-offset="805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/PCDMashup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="67" selection-start="934" selection-end="934" vertical-scroll-proportion="0.54906833" vertical-offset="0" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+  </component>
+</project>
+

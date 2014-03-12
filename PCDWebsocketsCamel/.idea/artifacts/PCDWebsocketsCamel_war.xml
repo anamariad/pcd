@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PCDWebsocketsCamel:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PCDWebsocketsCamel-1.0.war">
+      <element id="artifact" artifact-name="PCDWebsocketsCamel:war exploded" />
+    </root>
+  </artifact>
+</component>
