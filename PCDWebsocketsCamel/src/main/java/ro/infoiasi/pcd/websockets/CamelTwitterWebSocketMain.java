@@ -48,7 +48,7 @@ public final class CamelTwitterWebSocketMain {
         route.setConsumerKey(consumerKey);
         route.setConsumerSecret(consumerSecret);
 
-        // poll for school, every 2nd second
+        // poll for school, every 5 seconds
         route.setSearchTerm("school");
         route.setDelay(5);
 
