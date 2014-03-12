@@ -19,9 +19,14 @@
 
 -->
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Camel Twitter WebSocket Example</title>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.min.js"></script>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script type='text/javascript'>
 
         if (!window.WebSocket) {
@@ -42,12 +47,28 @@
             onmessage: function(m) {
                 if (m.data){
                     var chat=$('chat');
+
+                    var rawmsg = m.data;
+                    var sep = rawmsg.indexOf(")");
+                    var author = rawmsg.substring(0, sep + 1);
+                    var msgText = rawmsg.substring(sep + 1);
+
+                    var spanAuthor = document.createElement('span');
+                    spanAuthor.className='user label label-info';
+                    spanAuthor.innerHTML=author;
+
                     var spanText = document.createElement('span');
-                    spanText.className='text';
-                    spanText.innerHTML=m.data;
+                    spanText.className='message badge';
+                    spanText.innerHTML=msgText;
+
+
+
                     var lineBreak = document.createElement('br');
+                    chat.appendChild(spanAuthor);
                     chat.appendChild(spanText);
                     chat.appendChild(lineBreak);
+
+
                     chat.scrollTop = chat.scrollHeight - chat.clientHeight;
                 }
             },
@@ -59,15 +80,12 @@
         };
 
     </script>
-    <style type='text/css'>
-        div { border: 0px solid black; }
-        div#chat { resize: both; clear: both; width: 80em; height: 60ex; overflow: auto; background-color: #f0f0f0; padding: 4px; border: 1px solid black; }
-    </style>
+
 </head>
 <body>
 <div id='chat'></div>
 <script type='text/javascript'>
-    room.join("Testing");
+    room.join("annoukd");
 </script>
 </body>
 </html>

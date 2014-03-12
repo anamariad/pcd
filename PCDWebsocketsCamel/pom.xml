@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <packaging>jar</packaging>
-    <name>Twitter WebSocket</name>
+    <name>PCDWebsocketsCamel</name>
     <description>An example that pushes new tweets to a web page using web-socket</description>
 
     <properties>

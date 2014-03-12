@@ -28,7 +28,7 @@ public class TwitterWebSocketRoute extends RouteBuilder {
 
     private int port = 9090;
     private String searchTerm;
-    private int delay = 2;
+    private int delay = 5;
     private String consumerKey;
     private String consumerSecret;
     private String accessToken;
@@ -105,7 +105,7 @@ public class TwitterWebSocketRoute extends RouteBuilder {
         tc.setConsumerKey(consumerKey);
         tc.setConsumerSecret(consumerSecret);
 
-        // poll twitter search for new tweets
+        // create a new route, polling twitter search for new tweets
         fromF("twitter://search?type=polling&delay=%s&keywords=%s", delay, searchTerm)
             // and push tweets to all web socket subscribers on camel-tweet
             .to("websocket:camel-tweet?sendToAll=true");

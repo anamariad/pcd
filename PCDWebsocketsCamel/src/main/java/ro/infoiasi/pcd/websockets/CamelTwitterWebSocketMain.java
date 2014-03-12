@@ -23,8 +23,8 @@ import org.apache.camel.main.Main;
  */
 public final class CamelTwitterWebSocketMain {
 
-    private static final String consumerKey = "N45d7sPCyVyV1ohKfY7NkA";
-    private static final String consumerSecret = "xpzFA15wp2ipkP7RJxTFMjsTfrPvxUQRXMYbqrE7V0";
+    private static final String consumerKey = "MWBaLxVZVFgy5LjHdX9VQ";
+    private static final String consumerSecret = "mNDUOxdAf4bk6eDFfuG7QMqH58Fir9QPjdvh5gs";
     private static final String accessToken = "2384266112-S2SpzGvEHcda0nOwWeheqbUNs8uRzibIfKr8O63";
     private static final String accessTokenSecret = "o8w9EYzChMXzt6QKmA18O6Y900XvZwLEALY7lPDP8OubG";
 
@@ -50,7 +50,7 @@ public final class CamelTwitterWebSocketMain {
 
         // poll for school, every 2nd second
         route.setSearchTerm("school");
-        route.setDelay(2);
+        route.setDelay(5);
 
         // web socket on port 9090
         route.setPort(9090);
