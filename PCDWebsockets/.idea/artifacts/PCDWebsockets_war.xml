@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="PCDWebsockets:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="PCDWebsockets-1.0.war">
-      <element id="artifact" artifact-name="PCDWebsockets:war exploded" />
-    </root>
-  </artifact>
-</component>
