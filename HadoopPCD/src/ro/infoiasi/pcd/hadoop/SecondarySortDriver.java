@@ -2,6 +2,7 @@ package ro.infoiasi.pcd.hadoop;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -33,7 +34,14 @@ public class SecondarySortDriver extends Configured implements Tool {
         job.setOutputValueClass(Text.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+        // deleting the output path if it already exists
+        Path outputPath = new Path(args[1]);
+        FileSystem fileSystem = FileSystem.get(getConf());
+        if (fileSystem.exists(outputPath)) {
+            fileSystem.delete(outputPath, true);
+        }
+        FileOutputFormat.setOutputPath(job, outputPath);
 
         return job.waitForCompletion(true) ? 0 : 1;
     }
