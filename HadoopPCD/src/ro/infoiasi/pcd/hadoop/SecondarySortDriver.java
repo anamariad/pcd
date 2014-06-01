@@ -25,6 +25,8 @@ public class SecondarySortDriver extends Configured implements Tool {
         job.setPartitionerClass(SubjectAndGradeKeyPartitioner.class);
         job.setSortComparatorClass(SubjectAndGradeKeyComparator.class);
 
+        job.setNumReduceTasks(2);
+
         job.setMapOutputKeyClass(SubjectAndGradeKey.class);
         job.setMapOutputValueClass(StudentAndGradeValue.class);
         job.setOutputKeyClass(Text.class);
