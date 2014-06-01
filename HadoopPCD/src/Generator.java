@@ -12,7 +12,7 @@ public class Generator {
         List<String> subjects = Arrays.asList("mate", "bio", "info");
         Set<String> names = new HashSet<String>() {{
 
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 10000; i++) {
                 add(RandomStringUtils.randomAlphabetic(4));
             }
 
