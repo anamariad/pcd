@@ -15,7 +15,7 @@ public class SecondarySortDriver extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
 
-        Job job = new Job(getConf(), "word count");
+        Job job = new Job(getConf(), "Secondary Sort");
 
         job.setJarByClass(SecondarySortDriver.class);
         job.setMapperClass(SecondarySortMapper.class);
