@@ -16,11 +16,13 @@ public class SecondarySortReducer extends Reducer<SubjectAndGradeKey, StudentAnd
         // output first 3 names of best students
         StringBuilder sb = new StringBuilder();
         int i = 0;
+        double lastGrade = 0.0;
         for (StudentAndGradeValue value : values) {
 
-            if (i < 3) {
+            if (i < 3 || value.getGrade() == lastGrade) {
                 sb.append(value.getStudent());
                 sb.append(",");
+                lastGrade = value.getGrade();
             }
             else {
                 break;
