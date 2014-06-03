@@ -15,13 +15,7 @@ public class SubjectAndGradeKeyComparator extends WritableComparator {
         SubjectAndGradeKey key2 = (SubjectAndGradeKey) w2;
 
         // (first check on subject)
-        int compare = key1.getSubject().compareTo(key2.getSubject());
+        return key1.compareTo(key2);
 
-        if (compare == 0) {
-            // only if we are in the same input group should we try and sort by student name
-            return -Double.compare(key1.getGrade(), key2.getGrade());
-        }
-
-        return compare;
     }
 }
